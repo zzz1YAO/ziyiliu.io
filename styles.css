@@ -51,6 +51,28 @@ header {
     margin-bottom: 5px;
 }
 
+.profile-meta {
+    color: #5f6c72;
+    margin-bottom: 12px;
+}
+
+.profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.profile-links a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.profile-links a:hover {
+    text-decoration: underline;
+}
+
 /* 导航栏样式 */
 nav ul {
     display: flex;
@@ -123,10 +145,21 @@ section h2 {
     border-bottom: 1px solid #f1f1f1;
 }
 
+.publication-list li.pub-highlight {
+    background-color: #f8fbff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e5effa;
+}
+
 .pub-year {
     font-weight: bold;
     min-width: 60px;
     color: #7f8c8d;
+}
+
+.pub-details {
+    flex: 1;
 }
 
 .pub-title {
@@ -134,9 +167,19 @@ section h2 {
     margin-bottom: 5px;
 }
 
+.pub-authors {
+    margin-bottom: 5px;
+}
+
 .pub-journal {
     color: #7f8c8d;
     margin-bottom: 5px;
+}
+
+.pub-note {
+    font-size: 0.9rem;
+    color: #5f6c72;
+    margin-bottom: 8px;
 }
 
 .pub-links a {
