@@ -1,47 +1,58 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ziyi Liu - Academic Homepage</title>
+    <title>Ziyi Liu | Academic Homepage</title>
+    <meta name="description" content="Ziyi Liu's academic homepage. Research interests include multimodal reasoning, long video understanding, and large language models.">
+    <meta property="og:title" content="Ziyi Liu | Academic Homepage">
+    <meta property="og:description" content="Researching multimodal reasoning and long video understanding.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="profile.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ziyi Liu | Academic Homepage">
+    <meta name="twitter:description" content="Researching multimodal reasoning and long video understanding.">
+    <meta name="twitter:image" content="profile.jpg">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <div class="bg-orb bg-orb-a" aria-hidden="true"></div>
+    <div class="bg-orb bg-orb-b" aria-hidden="true"></div>
     <div class="container">
         <header>
             <div class="profile">
-                <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+                <img src="profile.jpg" alt="Portrait of Ziyi Liu" class="profile-img" loading="lazy" decoding="async">
                 <div class="profile-text">
                     <h1>Ziyi Liu</h1>
                     <p class="subtitle">Student · Beijing University of Posts and Telecommunications</p>
                     <p class="profile-meta">Researching multimodal reasoning and long video understanding. Co-first author of <em>LongVideoAgent</em>.</p>
                     <div class="profile-links">
                         <a href="mailto:ziyiliu0811@outlook.com"><i class="fas fa-envelope"></i> Email</a>
-                        <a href="https://scholar.google.com/citations?user=P-SiOHsAAAAJ&hl=zh-CN" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Scholar</a>
-                        <a href="https://github.com/zzz1YAO" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="https://scholar.google.com/citations?user=P-SiOHsAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i> Scholar</a>
+                        <a href="https://github.com/zzz1YAO" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
                     </div>
                 </div>
             </div>
-            <nav>
+            <nav aria-label="Primary">
                 <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#research">Research</a></li>
-                    <li><a href="#publications">Publications</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#research" class="nav-link">Research</a></li>
+                    <li><a href="#publications" class="nav-link">Publications</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
-        <section id="about">
+        <section id="about" class="reveal">
             <h2>About Me</h2>
             <p>
-                I am a fourth-year undergraduate student in Artificial Intelligence at Beijing University of Posts and Telecommunications (BUPT). I work on multimodal reasoning, long video understanding, and large language models. I am a co-first author of <em>LongVideoAgent: Multi-Agent Reasoning with Long Videos</em>.
+                I am a fourth-year undergraduate student in Artificial Intelligence at Beijing University of Posts and Telecommunications (BUPT). My research focuses on multimodal reasoning, long video understanding, and large language models. I am a co-first author of <em>LongVideoAgent: Multi-Agent Reasoning with Long Videos</em>.
             </p>
         </section>
 
-        <section id="research">
+        <section id="research" class="reveal">
             <h2>Research Interests</h2>
             <div class="research-areas">
                 <div class="research-item">
@@ -59,7 +70,7 @@
             </div>
         </section>
 
-        <section id="publications">
+        <section id="publications" class="reveal">
             <h2>Selected Publications</h2>
             <ul class="publication-list">
                 <li class="pub-highlight">
@@ -70,20 +81,20 @@
                         <div class="pub-journal">arXiv preprint 2512.20618</div>
                         <div class="pub-note">Co-first author</div>
                         <div class="pub-links">
-                            <a href="https://arxiv.org/abs/2512.20618" target="_blank" rel="noopener">arXiv</a>
+                            <a href="https://arxiv.org/abs/2512.20618" target="_blank" rel="noopener noreferrer">arXiv</a>
                         </div>
                     </div>
                 </li>
             </ul>
         </section>
 
-        <section id="projects">
+        <section id="projects" class="reveal">
             <h2>Projects</h2>
             <div class="projects-grid">
                 <div class="project-item">
                     <h3>LongVideoAgent</h3>
-                    <p>Multi-agent reasoning for long video understanding. See the paper for details.</p>
-                    <a href="https://arxiv.org/abs/2512.20618" target="_blank" rel="noopener">Project paper</a>
+                    <p>A multi-agent framework for long video reasoning, with emphasis on planning and long-context memory.</p>
+                    <a href="https://arxiv.org/abs/2512.20618" target="_blank" rel="noopener noreferrer">Project paper</a>
                 </div>
                 <div class="project-item">
                     <h3>Course & Personal Projects</h3>
@@ -93,25 +104,22 @@
             </div>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="reveal">
             <h2>Contact</h2>
             <div class="contact-info">
                 <p><i class="fas fa-envelope"></i> Email: ziyiliu0811@outlook.com</p>
                 <p><i class="fas fa-map-marker-alt"></i> Address: Beijing, China / Guangzhou, China</p>
-                <p><i class="fas fa-phone"></i> Phone: +86 18922351216</p>
                 <div class="social-links">
-                    <a href="https://github.com/zzz1YAO" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
-                    <a href="https://scholar.google.com/citations?user=P-SiOHsAAAAJ&hl=zh-CN" target="_blank" rel="noopener"><i class="fab fa-google"></i> Google Scholar</a>
-                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                    <a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="https://github.com/zzz1YAO" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://scholar.google.com/citations?user=P-SiOHsAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer"><i class="fab fa-google"></i> Google Scholar</a>
                 </div>
             </div>
         </section>
     </div>
 
     <footer>
-        <p>&copy; 2025 Ziyi Liu. All rights reserved.</p>
-        <p>Last updated: <span id="last-updated">April 2025</span></p>
+        <p>&copy; 2026 Ziyi Liu. All rights reserved.</p>
+        <p>Last updated: <span id="last-updated">2026-02-17</span></p>
     </footer>
 
     <script src="scripts.js"></script>
