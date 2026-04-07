@@ -5,34 +5,36 @@ Personal academic homepage built with static frontend files:
 - `styles.css`
 - `scripts.js`
 
-## Latest Update (2026-02-17)
+## Latest Update (2026-04-07)
 
-This version upgrades the homepage to a more modern academic style while keeping the site lightweight.
+Major update adding new sections and updating content to reflect academic progress.
 
 ### What changed
-- Switched page language to English and unified profile/content wording.
-- Replaced auto-generated footer date with a manual, fixed `Last updated` date.
-- Added SEO/social metadata:
-  - `meta description`
-  - Open Graph tags
-  - Twitter Card tags
-- Improved accessibility:
-  - Better profile image `alt` text
-  - Visible keyboard focus styles (`:focus-visible`)
-  - Consistent external-link safety attributes (`noopener noreferrer`)
-- Refined contact/privacy setup:
-  - Removed public phone number
-  - Removed placeholder social links
-- Upgraded visual system:
-  - Introduced CSS variables (colors, spacing, radius, shadows)
-  - Added layered gradient background and soft orb effects
-  - Improved card hierarchy and spacing for sections
-  - Sticky glass-style navigation bar
-- Added interaction enhancements:
-  - Smooth anchor scrolling with top offset
-  - Active nav highlighting while scrolling (scroll spy)
-  - Section reveal-on-scroll animation using `IntersectionObserver`
-  - Reduced-motion fallback support
+- **New "Education & Experience" section** with university logos:
+  - Added CUHK-Shenzhen (MPhil) and BUPT (B.Eng) entries with official logos
+  - Responsive card layout with hover effects
+  - Advisor and timeline information
+- **New "News" section** for academic updates:
+  - ACL 2026 paper acceptance announcement
+  - CUHK-Shenzhen admission news
+  - Chronological layout with date markers
+- **Updated "About Me" section**:
+  - Refined focus on research interests
+  - Updated academic status (incoming MPhil student)
+- **Updated "Publications" section**:
+  - Changed LongVideoAgent status from arXiv preprint to ACL 2026 Main Conference
+  - Added placeholder links for Code and Project Page
+  - Enhanced visual emphasis on conference name
+- **Navigation improvements**:
+  - Added "Education" and "News" to navigation bar
+  - Maintained smooth scrolling and scroll spy functionality
+- **Visual enhancements**:
+  - New logo container styling with grayscale hover effects
+  - Consistent typography hierarchy
+  - Improved responsive design for mobile devices
+- **Content updates**:
+  - All academic information now current (2026)
+  - Paper status accurately reflects conference acceptance
 
 ## Notes
 - The site remains framework-free and deployment-friendly for GitHub Pages.

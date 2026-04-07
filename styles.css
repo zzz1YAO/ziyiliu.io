@@ -341,6 +341,152 @@ a:focus-visible {
     }
 }
 
+/* Education & Experience Styles */
+.experience-list {
+    list-style: none;
+}
+
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+}
+
+.experience-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.experience-logo {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--surface-soft);
+    border-radius: 10px;
+    padding: 8px;
+    border: 1px solid var(--border);
+}
+
+.logo-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: grayscale(20%);
+    transition: filter 0.2s ease;
+}
+
+.experience-item:hover .logo-img {
+    filter: grayscale(0%);
+}
+
+.experience-details {
+    flex: 1;
+}
+
+.experience-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--text);
+    margin-bottom: 4px;
+}
+
+.experience-org {
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 4px;
+}
+
+.experience-time {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+}
+
+.experience-advisor,
+.experience-note {
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* News Styles */
+.news-list {
+    list-style: none;
+}
+
+.news-item {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+}
+
+.news-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.news-date {
+    font-weight: 600;
+    min-width: 100px;
+    color: var(--primary);
+}
+
+.news-content {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .experience-item {
+        gap: 16px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .experience-logo {
+        width: 50px;
+        height: 50px;
+        padding: 6px;
+    }
+
+    .news-item {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .news-date {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience-item {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .experience-logo {
+        width: 60px;
+        height: 60px;
+        padding: 8px;
+    }
+
+    .experience-details {
+        width: 100%;
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;
