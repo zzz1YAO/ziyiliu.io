@@ -5,36 +5,26 @@ Personal academic homepage built with static frontend files:
 - `styles.css`
 - `scripts.js`
 
-## Latest Update (2026-04-07)
+## Latest Update (2026-06-12)
 
-Major update adding new sections and updating content to reflect academic progress.
+Homepage refresh to reflect the transition to HKUST (Guangzhou) and improve the visual presentation.
 
 ### What changed
-- **New "Education & Experience" section** with university logos:
-  - Added CUHK-Shenzhen (MPhil) and BUPT (B.Eng) entries with official logos
-  - Responsive card layout with hover effects
-  - Advisor and timeline information
-- **New "News" section** for academic updates:
-  - ACL 2026 paper acceptance announcement
-  - CUHK-Shenzhen admission news
-  - Chronological layout with date markers
-- **Updated "About Me" section**:
-  - Refined focus on research interests
-  - Updated academic status (incoming MPhil student)
-- **Updated "Publications" section**:
-  - Changed LongVideoAgent status from arXiv preprint to ACL 2026 Main Conference
-  - Added placeholder links for Code and Project Page
-  - Enhanced visual emphasis on conference name
-- **Navigation improvements**:
-  - Added "Education" and "News" to navigation bar
-  - Maintained smooth scrolling and scroll spy functionality
-- **Visual enhancements**:
-  - New logo container styling with grayscale hover effects
-  - Consistent typography hierarchy
-  - Improved responsive design for mobile devices
-- **Content updates**:
-  - All academic information now current (2026)
-  - Paper status accurately reflects conference acceptance
+- **Updated academic status**:
+  - Replaced the previous incoming MPhil plan with the new incoming PhD plan at HKUST (Guangzhou)
+  - Added supervisor information for Prof. Hao Liu
+- **Expanded homepage introduction**:
+  - Rewrote the hero and About sections with a fuller research-oriented self introduction
+  - Added a compact "At a Glance" panel
+- **Refreshed visual design**:
+  - Introduced a new navy and gold palette inspired by the HKUST logo
+  - Added a stronger hero layout, refined section cards, and improved typography
+- **Updated education and news**:
+  - Added the HKUST logo and PhD entry
+  - Replaced outdated admission news with the current PhD transition
+- **Publication cleanup**:
+  - Kept the ACL 2026 paper highlight
+  - Replaced placeholder repository links with a concrete code link
 
 ## Notes
 - The site remains framework-free and deployment-friendly for GitHub Pages.
