@@ -99,13 +99,11 @@ body::before {
 
 .hero-panel {
     display: grid;
-    grid-template-columns: minmax(0, 1.6fr) minmax(280px, 0.9fr);
-    gap: 20px;
+    grid-template-columns: 1fr;
     margin-bottom: 24px;
 }
 
 .profile,
-.hero-card,
 section,
 nav ul {
     border: 1px solid var(--border);
@@ -113,8 +111,7 @@ nav ul {
     backdrop-filter: blur(12px);
 }
 
-.profile,
-.hero-card {
+.profile {
     background: rgba(255, 251, 244, 0.82);
     border-radius: var(--radius-xl);
 }
@@ -137,9 +134,8 @@ nav ul {
 }
 
 .eyebrow,
-.hero-card-label,
 .glance-label,
-.hero-card-key {
+.glance-label {
     text-transform: uppercase;
     letter-spacing: 0.12em;
     font-size: 0.76rem;
@@ -153,7 +149,6 @@ nav ul {
 
 .profile-text h1,
 section h2,
-.hero-card h2,
 .research-item h3,
 .glance-card h3 {
     font-family: "Fraunces", "Georgia", serif;
@@ -215,57 +210,6 @@ section h2,
 .social-links a:hover,
 .pub-links a:hover {
     color: var(--primary-strong);
-}
-
-.hero-card {
-    padding: 28px 24px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background:
-        linear-gradient(180deg, rgba(17, 63, 120, 0.96) 0%, rgba(11, 44, 82, 0.98) 100%);
-    color: #edf4ff;
-}
-
-.hero-card-label {
-    color: rgba(255, 231, 183, 0.92);
-    font-weight: 800;
-    margin-bottom: 12px;
-}
-
-.hero-card h2 {
-    font-size: 2rem;
-    line-height: 1.02;
-    margin-bottom: 14px;
-    color: #ffffff;
-}
-
-.hero-card p {
-    color: rgba(240, 246, 255, 0.9);
-}
-
-.hero-card-points {
-    display: grid;
-    gap: 14px;
-    margin-top: 22px;
-}
-
-.hero-card-points > div {
-    padding: 14px 16px;
-    border-radius: var(--radius-md);
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.hero-card-key {
-    display: block;
-    color: rgba(255, 231, 183, 0.84);
-    margin-bottom: 6px;
-}
-
-.hero-card strong {
-    font-size: 0.98rem;
-    line-height: 1.55;
 }
 
 nav {
@@ -569,9 +513,6 @@ a:focus-visible {
         grid-template-columns: 1fr;
     }
 
-    .hero-card {
-        order: -1;
-    }
 }
 
 @media (max-width: 768px) {
@@ -610,8 +551,7 @@ a:focus-visible {
         font-size: 0.95rem;
     }
 
-    section,
-    .hero-card {
+    section {
         padding: 22px;
     }
 
@@ -642,10 +582,6 @@ a:focus-visible {
     .hero-badges,
     .social-links {
         justify-content: center;
-    }
-
-    .hero-card h2 {
-        font-size: 1.64rem;
     }
 
     .experience-item {
